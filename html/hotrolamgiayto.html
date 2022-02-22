@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div>
+            <label>Họ tên:</label><br/>
+            <input type="text">
+        </div>
+        <div>
+            <label>Giới tính:   </label>
+            <label>Nam<input type="radio" name="gender" checked></label>
+            <label>Nữ<input type="radio" name="gender"></label>
+        </div>
+        <div>
+            <label>Hình ảnh</label>
+            <input type="file">
+        </div>
+        <div>
+            <label>Quốc tịch</label><br />
+            <select>
+                <option value="1" >Việt nam</option>
+                <option value="2">lào</option>
+                <option value="3" checked>campuchia</option>
+                <option value="4">thái lan</option>
+            </select>
+        </div>
+        <div>
+            <label>giấy tời đát</label><br/>
+            <label><input type="checkbox" name="hobby">xổ hồng có liền</label>
+            <label><input type="checkbox" name="hobby" checked>đặt cọc truoc</label>
+            <label><input type="checkbox" name="hobby">view nhà đep</label>
+            <label><input type="checkbox" name="hobby">không khí thoáng mát</label>
+        </div>
+        <div>
+            <label>ghi rõ thông tin của căn nhà </label><br/>
+            <textarea name="" id="" cols="1000" rows="4"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Nhập lại">
+        </div>
+    </form>
+</body>
+</html>
